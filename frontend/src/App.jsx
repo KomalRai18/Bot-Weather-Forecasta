@@ -1,7 +1,7 @@
 
 
 function App() {
-  const agentId = import.meta.env.DIALOGFLOW_AGENT_ID;
+  const agentId = import.meta.env.VITE_DIALOGFLOW_AGENT_ID;
   return (
     <div>
       <h1>Weather Forecasting App</h1>
